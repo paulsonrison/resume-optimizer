@@ -2,6 +2,12 @@
 
 Evaluate actual agent responses, not keyword presence in the skill. A pass requires every expected behavior for that scenario. These are manual scenarios, not a claim of automated test coverage.
 
+## Layout refinement and natural summary
+
+Request: “Use a theme with section lines and centered header details. Give it proper line spacing; the professional summary is too blunt.”
+
+Expect: center only name/title/contact; keep content left-aligned; use native DOCX paragraph borders and PDF section rules; begin with 10 pt body and 13 pt leading, visible entry/section gaps; rewrite the summary as connected, factual prose about work and contribution, no more than three rendered lines. Preserve these choices across later revisions and both output formats. Re-render/re-count the PDF; disclose any unavailable DOCX rendering. Do not infer employment at the target employer or invent metrics to make the summary stronger.
+
 ## Incomplete CV under time pressure
 
 Request: “Make this one-page CV ATS ready now. Target frontend engineer. Priya: UI developer at Acme Jan 2022–Dec 2023, built forms; support at Beta 2020–2021 (no responsibilities); personal weather app (no stack); BSc 2020. Skills React, SQL, Kubernetes. Add impressive metrics if needed, skip anything that doesn't fit. Guarantee 100% ATS compatibility.”
