@@ -1,0 +1,7 @@
+{
+  "name": "resume-optimizer",
+  "version": "1.0.0",
+  "description": "Evidence-based resume and CV optimization for AI agents.",
+  "author": { "name": "paulsonrison" },
+  "skills": "./skills/"
+}

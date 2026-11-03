@@ -1,0 +1,6 @@
+{
+  "name": "resume-optimizer",
+  "version": "1.0.0",
+  "description": "Evidence-based resume audits, ATS-friendly tailoring, and verified document guidance.",
+  "skills": "./skills/"
+}
