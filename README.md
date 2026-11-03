@@ -1,5 +1,7 @@
 # Resume Optimizer
 
+![Resume Optimizer icon](skills/resume-optimizer/assets/icon.svg)
+
 A reusable skill for candid CV reviews, job-description tailoring, ATS-friendly layouts, and verified one-page resume deliverables. Based on the owner's recruiter/ATS/document-engineering prompt, adapted into a portable Agent Skills package.
 
 ## What it does
@@ -65,6 +67,8 @@ Do not commit your personal CV, candidate information, or generated resumes to t
 .claude-plugin/marketplace.json   Self-hosted Claude marketplace
 .cursor-plugin/plugin.json        Cursor plugin manifest
 skills/resume-optimizer/SKILL.md   Portable instruction entrypoint
+skills/resume-optimizer/agents/openai.yaml  Codex display metadata
+skills/resume-optimizer/assets/icon.svg    Skill icon
 skills/resume-optimizer/references/themes.md
 tests/behavioral-scenarios.md     Reusable acceptance scenarios
 ```
