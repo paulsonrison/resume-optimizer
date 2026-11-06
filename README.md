@@ -28,6 +28,17 @@ Clone or download this repository. Copy the **entire** `skills/resume-optimizer`
 
 In Codex invoke `$resume-optimizer`. In Claude Code use `/resume-optimizer` for a standalone skill, or `/resume-optimizer:resume-optimizer` for the plugin. In Cursor ask Agent to use the resume-optimizer skill. Other Agent Skills-compatible hosts can load the same folder in their documented skill location. A chat-only assistant can read SKILL.md and its theme reference as instructions, but does not thereby gain native plugin discovery or file-generation tools.
 
+## Codex plugin
+
+```sh
+codex plugin marketplace add paulsonrison/resume-optimizer
+codex plugin add resume-optimizer@resume-optimizer-marketplace
+```
+
+Invoke `$resume-optimizer`. Version 1.1.0 adds native Codex/portable plugin
+packaging. This repository and its release ZIP contain only Resume Optimizer;
+Notebook Forge, Case Study Writing and Ooh Shiny are separate plugins.
+
 ## Claude Code plugin
 
 In Claude Code:

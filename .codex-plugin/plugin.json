@@ -1,0 +1,11 @@
+{
+  "name": "resume-optimizer",
+  "version": "1.1.0",
+  "description": "Factual CV review, job tailoring and verified document guidance.",
+  "author": {
+    "name": "paulsonrison",
+    "url": "https://github.com/paulsonrison"
+  },
+  "license": "MIT",
+  "skills": "./skills/"
+}

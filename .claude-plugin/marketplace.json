@@ -1,11 +1,14 @@
 {
   "name": "resume-optimizer-marketplace",
-  "owner": { "name": "paulsonrison" },
+  "owner": {
+    "name": "paulsonrison"
+  },
   "plugins": [
     {
       "name": "resume-optimizer",
       "source": "./",
-      "description": "Resume and CV optimization with factual integrity and document verification."
+      "description": "Factual CV review, job tailoring and verified document guidance.",
+      "version": "1.1.0"
     }
   ]
 }

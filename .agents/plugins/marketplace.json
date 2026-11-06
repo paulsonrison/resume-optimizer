@@ -1,0 +1,20 @@
+{
+  "name": "resume-optimizer-marketplace",
+  "interface": {
+    "displayName": "Resume Optimizer"
+  },
+  "plugins": [
+    {
+      "name": "resume-optimizer",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

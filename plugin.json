@@ -1,0 +1,34 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "resume-optimizer",
+  "version": "1.1.0",
+  "description": "Factual CV review, job tailoring and verified document guidance.",
+  "author": {
+    "name": "paulsonrison",
+    "url": "https://github.com/paulsonrison"
+  },
+  "homepage": "https://github.com/paulsonrison/resume-optimizer",
+  "repository": "https://github.com/paulsonrison/resume-optimizer",
+  "license": "MIT",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Resume Optimizer",
+        "shortDescription": "Factual CV review, job tailoring and verified document guidance.",
+        "longDescription": "Factual CV review, job tailoring and verified document guidance.",
+        "developerName": "paulsonrison",
+        "category": "Productivity",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://github.com/paulsonrison/resume-optimizer",
+        "supportURL": "https://github.com/paulsonrison/resume-optimizer/issues",
+        "defaultPrompt": [
+          "Use Resume Optimizer with my supplied material."
+        ],
+        "composerIcon": "./skills/resume-optimizer/assets/icon.svg"
+      }
+    }
+  }
+}
